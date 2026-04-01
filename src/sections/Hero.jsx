@@ -28,12 +28,17 @@ export default function Hero() {
         </p>
 
         <div className="flex items-center justify-center gap-4 flex-wrap">
-          <button className="px-8 py-3 bg-primary/10 text-primary border border-primary/30 rounded-lg font-mono hover:bg-primary/20 transition-all">
-            View_Projects
-          </button>
-          <button className="px-8 py-3 text-textMain hover:text-primary transition-colors font-mono">
+          <a 
+            href="#work" 
+            className="px-8 py-3 bg-primary/10 text-primary border border-primary/30 rounded-lg font-mono hover:bg-primary/20 transition-all inline-block"
+          >
+             View_Projects
+          </a>
+          <a 
+            href="#contact"
+            className="px-8 py-3 text-textMain hover:text-primary transition-colors font-mono">
             Contact_Me()
-          </button>
+          </a>
         </div>
       </motion.div>
     </section>

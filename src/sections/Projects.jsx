@@ -3,7 +3,7 @@ import { projects } from '../data/projects';
 
 export default function Projects() {
   return (
-    <section className="py-24 px-6 bg-background relative" id="work">
+    <section className="py-24 px-6 bg-transparent relative" id="work">
       <div className="max-w-6xl mx-auto">
         
         <div className="mb-16">
@@ -26,7 +26,7 @@ export default function Projects() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="group relative p-8 bg-surface border border-white/5 rounded-2xl hover:border-primary/50 transition-colors duration-300"
+                className="group relative p-8 bg-surface/30 backdrop-blur-md border border-white/5 border border-white/5 rounded-2xl hover:border-primary/50 transition-colors duration-300"
               >
                 <div className="flex justify-between items-start mb-6">
                   <div className="p-3 bg-primary/10 text-primary rounded-lg group-hover:scale-110 transition-transform">

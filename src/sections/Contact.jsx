@@ -3,7 +3,7 @@ import { Mail, Phone, MessageCircle, Download, Terminal } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <section className="py-24 px-6 bg-background relative border-t border-white/5" id="contact">
+    <section className="py-24 px-6 bg-transparent relative border-t border-white/5" id="contact">
       <div className="max-w-4xl mx-auto text-center">
         
         <motion.div

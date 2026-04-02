@@ -3,7 +3,7 @@ import { experience, skills } from '../data/experience';
 
 export default function Experience() {
   return (
-    <section className="py-24 px-6 bg-surface/50 border-t border-white/5 relative" id="experience">
+    <section className="py-24 px-6 bg-transparent relative" id="experience">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
         
         {/* Left Column: The Timeline */}
@@ -24,11 +24,11 @@ export default function Experience() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
                 >
-                  <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white/10 bg-surface shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_0_4px_#0a0a0a] z-10 group-hover:border-primary/50 group-hover:text-primary transition-colors">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white/10 bg-surface/30 backdrop-blur-md border border-white/5 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-[0_0_0_4px_#0a0a0a] z-10 group-hover:border-primary/50 group-hover:text-primary transition-colors">
                     <Icon className="w-4 h-4" />
                   </div>
                   
-                  <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 bg-background border border-white/5 rounded-2xl group-hover:border-primary/20 transition-colors">
+                  <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 bg-surface/20 backdrop-blur-md border border-white/10 rounded-2xl group-hover:border-primary/20 transition-colors">
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-primary font-mono text-xs">{item.date}</span>
                     </div>
@@ -56,7 +56,7 @@ export default function Experience() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="p-6 bg-background border border-white/5 rounded-2xl"
+              className="p-6 bg-surface/20 backdrop-blur-md border border-white/10 rounded-2xl"
             >
               <h3 className="text-primary font-mono text-sm mb-4">_AI & Data Science</h3>
               <div className="flex flex-wrap gap-2">
@@ -74,7 +74,7 @@ export default function Experience() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="p-6 bg-background border border-white/5 rounded-2xl"
+              className="p-6 bg-surface/20 backdrop-blur-md border border-white/10 rounded-2xl"
             >
               <h3 className="text-secondary font-mono text-sm mb-4">_Core Engineering</h3>
               <div className="flex flex-wrap gap-2">
@@ -92,7 +92,7 @@ export default function Experience() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="p-6 bg-background border border-white/5 rounded-2xl"
+              className="p-6 bg-surface/20 backdrop-blur-md border border-white/10 rounded-2xl"
             >
               <h3 className="text-textMuted font-mono text-sm mb-4">_Infrastructure & Architecture</h3>
               <div className="flex flex-wrap gap-2">

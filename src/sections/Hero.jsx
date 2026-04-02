@@ -3,7 +3,8 @@ import { Terminal } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center relative px-6">
+    <section className="min-h-screen flex items-center justify-center bg-transparent relative px-6 overflow-hidden">
+      
       {/* Subtle green glowing background effect */}
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,rgba(16,185,129,0.05)_0,transparent_50%)] pointer-events-none" />
 
@@ -11,7 +12,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="z-10 text-center max-w-3xl"
+        className="relative z-10 text-center max-w-3xl"
       >
         <div className="flex items-center justify-center gap-2 mb-6">
           <Terminal className="text-primary w-5 h-5" />
@@ -36,7 +37,7 @@ export default function Hero() {
           </a>
           <a 
             href="#contact"
-            className="px-8 py-3 text-textMain hover:text-primary transition-colors font-mono">
+            className="px-8 py-3 text-textMain hover:text-primary transition-colors font-mono inline-block">
             Contact_Me()
           </a>
         </div>

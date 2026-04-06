@@ -39,6 +39,7 @@ export default function Contact() {
           </a>
 
           {/* WhatsApp */}
+          {/* 
           <a href="https://wa.me/+917046717948" target="_blank" rel="noopener noreferrer" className="flex items-center p-4 bg-surface border border-white/5 rounded-xl hover:border-[#25D366]/50 group transition-all">
             <div className="p-3 bg-white/5 text-textMuted rounded-lg group-hover:bg-[#25D366]/10 group-hover:text-[#25D366] transition-colors">
               <MessageCircle className="w-5 h-5" />
@@ -48,8 +49,10 @@ export default function Contact() {
               <span className="block text-textMain group-hover:text-[#25D366] transition-colors">+91 7046717948</span>
             </div>
           </a>
+          */}
 
           {/* Direct Call */}
+          {/* 
           <a href="tel:+33743647256" className="flex items-center p-4 bg-surface border border-white/5 rounded-xl hover:border-secondary/50 group transition-all">
             <div className="p-3 bg-white/5 text-textMuted rounded-lg group-hover:bg-secondary/10 group-hover:text-secondary transition-colors">
               <Phone className="w-5 h-5" />
@@ -59,6 +62,7 @@ export default function Contact() {
               <span className="block text-textMain group-hover:text-secondary transition-colors">+33 7 43 64 72 56</span>
             </div>
           </a>
+          */}
 
           {/* GitHub */}
           <a href="https://github.com/Devangsinh84" target="_blank" rel="noopener noreferrer" className="flex items-center p-4 bg-surface border border-white/5 rounded-xl hover:border-white/30 group transition-all">

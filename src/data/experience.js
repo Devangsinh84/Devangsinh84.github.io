@@ -15,8 +15,8 @@ export const experience = [
     type: "work",
     title: "Software Engineer I",
     organization: "INJALA (Fintech)",
-    date: "Aug 2023 - Aug 2025",
-    description: "Engineered scalable modules for the Kinetic Insurance platform. Built full-stack features, REST APIs, and server-rendered UIs using ASP.NET Core, C#, JavaScript, and SQL Server.",
+    date: "Aug 2023 - Aug 2025 (intern from Jan 2023)",
+    description: "Built and maintained modules of Kinetic, a multi-customer insurance SaaS platform in production (ASP.NET Core, C#, SQL Server, PostgreSQL, React). Defined the strategy for a large data and code migration, cut an automated process from 30 to 2 minutes, and mentored 3 junior engineers.",
     icon: Briefcase
   },
   {

@@ -53,6 +53,17 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-6 text-sm font-mono text-primary hover:underline"
+                  >
+                    View code on GitHub →
+                  </a>
+                )}
               </motion.div>
             )
           })}

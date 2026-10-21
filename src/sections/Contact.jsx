@@ -83,7 +83,7 @@ export default function Contact() {
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a 
-            href="/Devangsinh_Gohil_Resume_En_012026.pdf" 
+            href="/Devangsinh_Gohil_CV_EN.pdf" 
             download
             className="flex items-center gap-2 px-8 py-4 bg-primary text-background font-bold rounded-lg hover:bg-primary/90 transition-colors w-full sm:w-auto justify-center"
           >

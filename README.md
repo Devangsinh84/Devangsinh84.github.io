@@ -1,16 +1,30 @@
-# React + Vite
+# devangsinh84.github.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio of **Devangsinh Gohil**, a software engineer (.NET / C#, Python) working on generative AI and full-stack applications, based in Paris.
 
-Currently, two official plugins are available:
+🌐 Live site: **https://devangsinh84.github.io**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sections
 
-## React Compiler
+- **Hero**: who I am, in one line
+- **Projects**: MSc thesis (explainable AI trading platform), Edge Risk (GenAI), worker fatigue detection (computer vision) and professional work, each linked to its repository
+- **Experience**: Injala (fintech, insurance SaaS) and education (MSc AI at ECE Paris, B.E. in IT)
+- **Contact**: email, phone, GitHub, LinkedIn and a downloadable CV
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
 
-## Expanding the ESLint configuration
+React 19 · Vite · Tailwind CSS · Framer Motion · Three.js (3D hero) · Lucide icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+
+```bash
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # production build in dist/
+```
+
+## Deployment
+
+Every push to `main` builds the site and publishes it to GitHub Pages through the workflow in [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+
+Project content lives in [`src/data/projects.js`](src/data/projects.js) and [`src/data/experience.js`](src/data/experience.js).
